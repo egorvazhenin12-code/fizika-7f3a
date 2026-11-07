@@ -987,6 +987,17 @@ p {
   background: #d9e2fb;
 }
 
+.pdf-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.pdf-links .pill {
+  margin-top: 0;
+}
+
 /* ===== Тест и дополнительные материалы ===== */
 
 .assessment {
