@@ -63,6 +63,7 @@
           <a href="media.html#books">Книги</a>
           <a href="media.html#films">Фильмы</a>
           <a href="media.html#sites">Сайты</a>
+          <a href="media.html#games">Игры</a>
         </div>
       </div>
 
@@ -80,36 +81,194 @@
     </nav>
   </header>
 
-  <main id="main">
+    <main id="main">
     <section class="page-hero page-hero--photo" style="--hero-img: url('assets/img/media.jpg');">
       <div class="container">
         <a class="back-link" href="index.html">← На главную</a>
         <p class="eyebrow">Раздел</p>
         <h1>Медиатека</h1>
-        <p class="lead">Книги, фильмы и сайты, которые помогают понять физику.</p>
+        <p class="lead">Книги и фильмы, которые помогают понять физику. Подборка учителя.</p>
+        <nav class="chips" aria-label="Разделы медиатеки">
+          <a href="#books">Книги</a>
+          <a href="#films">Фильмы</a>
+          <a href="#sites">Сайты</a>
+          <a href="#games">Игры</a>
+        </nav>
       </div>
     </section>
 
-    <section class="section">
+    <section class="media-section" id="books">
       <div class="container">
-        <div class="info-grid">
-          <article class="info-card" id="books">
-            <h2>Книги</h2>
-            <p>Научно-популярные книги о физике и учёных.</p>
-            <span class="pill">Скоро</span>
-          </article>
-          <article class="info-card" id="films">
-            <h2>Фильмы</h2>
-            <p>Документальные и художественные фильмы.</p>
-            <span class="pill">Скоро</span>
-          </article>
-          <article class="info-card" id="sites">
-            <h2>Сайты</h2>
-            <p>Полезные ресурсы для изучения физики.</p>
-            <span class="pill">Скоро</span>
-          </article>
+        <h2>Книги</h2>
+        <p class="media-intro">Художественные и научно-популярные книги, в которых физика — часть сюжета.</p>
+        <div class="media-grid">
+        <article class="media-group">
+          <h3>Астрономия и космос</h3>
+          <ul class="media-items">
+            <li><strong>Стивен Хокинг</strong> — «Джордж и тайны Вселенной»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Физические сказки</h3>
+          <ul class="media-items">
+            <li><strong>Лаймен Баум</strong> — «Волшебный выключатель»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Трилогия</h3>
+          <ul class="media-items">
+            <li><strong>Ник Горькавый</strong> — «Астровитянка», «Теория катастрофы», «Возвращение Астровитянки»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Книги о волшебниках</h3>
+          <ul class="media-items">
+            <li><strong>Джоан Роулинг</strong> — «Гарри Поттер и…»</li>
+            <li><strong>Дмитрий Емец</strong> — «Таня Гроттер и…», «Мефодий Буслаев и…»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Классика приключений</h3>
+          <ul class="media-items">
+            <li><strong>Эрих Распэ</strong> — «Приключения барона Мюнхаузена»</li>
+            <li><strong>Льюис Кэрролл</strong> — «Алиса в Стране чудес», «Алиса в Зазеркалье»</li>
+            <li><strong>Джонатан Свифт</strong> — «Путешествие Гулливера»</li>
+            <li><strong>Жюль Верн</strong> — «Дети капитана Гранта», «Таинственный остров», «Пятнадцатилетний капитан», «Двадцать тысяч лье под водой», «Путешествие к центру Земли», «Вокруг света за 80 дней», «Пять недель на воздушном шаре»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Школа и техника</h3>
+          <ul class="media-items">
+            <li><strong>Николай Носов</strong> — «Витя Малеев в школе и дома»</li>
+            <li><strong>Евгений Велтистов</strong> — «Приключения Электроника»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Фантастика с физикой</h3>
+          <ul class="media-items">
+            <li><strong>Хол Клемент</strong> — «Экспедиция „Тяготение“»</li>
+            <li><strong>Ежи Брошкевич</strong> — «Трое с десятой тысячи»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Книги-игры и детективы</h3>
+          <ul class="media-items">
+            <li><strong>Владимир Акентьев</strong> — «Остров тайн»</li>
+            <li><strong>Хелен Фрил</strong> — «Остров Тайн. Невероятная детективная история»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Просто хорошие книги</h3>
+          <ul class="media-items">
+            <li><strong>Юрий Сальников</strong> — «Шестиклассники»</li>
+            <li><strong>Роб Буйе</strong> — «Всё из-за мистера Террапта»</li>
+            <li><strong>Э. Хилдик</strong> — «Питер Брейн и его друзья»</li>
+          </ul>
+        </article>
         </div>
-        <p class="section-note">Подборка появится позже.</p>
+        <p class="media-source">
+          Ещё подборки:
+          <a href="https://solnet.ee/umnoteka/zanimatelnaja-fizika" target="_blank" rel="noopener">«Занимательная физика»</a>,
+          <a href="https://dzen.ru/a/aBIlaoH7XiEqWwX2" target="_blank" rel="noopener">подборка книг о физике</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="media-section" id="films">
+      <div class="container">
+        <h2>Фильмы</h2>
+        <p class="media-intro">Научно-популярные и художественные фильмы, мультфильмы и сериалы о физике и учёных.</p>
+        <div class="media-grid">
+        <article class="media-group">
+          <h3>9 лучших фильмов о физиках</h3>
+          <ul class="media-items">
+            <li>«Детонатор»</li>
+            <li>«Хокинг»</li>
+            <li>«Теория большого взрыва»</li>
+            <li>«Ничтожество»</li>
+            <li>«Девять дней одного года»</li>
+            <li>«Здравствуй, это я!»</li>
+            <li>«Иду на грозу»</li>
+            <li>«Ещё раз про любовь»</li>
+            <li>«977»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Сказка</h3>
+          <ul class="media-items">
+            <li>«Новогодние приключения Маши и Вити»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Мультфильмы</h3>
+          <ul class="media-items">
+            <li>«Ивашка из дворца пионеров»</li>
+            <li>«Алло! Вас слышу!»</li>
+            <li>«Коля, Оля и Архимед»</li>
+            <li>«Жили-были первооткрыватели»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Научно-популярные и учебные сериалы</h3>
+          <ul class="media-items">
+            <li>«Великие учёные»</li>
+            <li>«Галилео»</li>
+            <li>«Гении и злодеи»</li>
+            <li>«Древние открытия»</li>
+            <li>«Жизнь замечательных идей»</li>
+            <li>«Из истории великих научных открытий»</li>
+            <li>«Изобретения, которые потрясли мир»</li>
+            <li>«Как это работает»</li>
+            <li>«Наука 2.0»</li>
+            <li>«Образование для всех»</li>
+            <li>«Открытия, изменившие мир»</li>
+            <li>«Среда обитания»</li>
+            <li>«Технологии древних цивилизаций»</li>
+            <li>«Центрнаучфильм»</li>
+            <li>«Цивилизация»</li>
+            <li>BBC</li>
+            <li>Discovery</li>
+            <li>GetClass</li>
+            <li>TED</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Детские мультсериалы</h3>
+          <ul class="media-items">
+            <li>«Смешарики»</li>
+            <li>«Фиксики»</li>
+            <li>«Волшебная лаборатория»</li>
+            <li>«Жил-был человек»</li>
+            <li>«Жила-была жизнь»</li>
+          </ul>
+        </article>
+        <article class="media-group">
+          <h3>Литература</h3>
+          <ul class="media-items">
+            <li>«Буревестник»</li>
+          </ul>
+        </article>
+        </div>
+        <p class="media-source">
+          Подборка:
+          <a href="https://mel.fm/chto_posmotret/1607328-physic_movies" target="_blank" rel="noopener">9 лучших фильмов о физиках</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="media-section" id="sites">
+      <div class="container">
+        <h2>Сайты</h2>
+        <p class="media-intro">Полезные ресурсы для изучения физики.</p>
+        <p class="media-empty">Раздел пока пуст — учитель добавит ссылки позже.</p>
+      </div>
+    </section>
+
+    <section class="media-section" id="games">
+      <div class="container">
+        <h2>Игры</h2>
+        <p class="media-intro">Интерактивные задания и игры по физике.</p>
+        <p class="media-empty">Раздел пока пуст — учитель добавит материалы позже.</p>
       </div>
     </section>
   </main>
