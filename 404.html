@@ -8,21 +8,72 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true">Φ</span>
-        <span class="brand-text">
-          <strong>Физика</strong>
-          
-        </span>
-      </a>
-      <nav class="site-nav" aria-label="Основная навигация">
-        <a href="grade-7.html">7 класс</a>
-        <a href="grade-8.html">8 класс</a>
-        <a href="grade-9.html">9 класс</a>
-      </nav>
-    </div>
+  <header class="topnav">
+    <nav class="topnav-inner" aria-label="Основная навигация">
+      <a href="index.html">Главная страница</a>
+
+      <div class="nav-item">
+        <a href="materials.html">Материалы с уроков <span class="caret" aria-hidden="true">▾</span></a>
+        <div class="dropdown">
+          <a href="grade-7.html">7 класс</a>
+          <a href="grade-8.html">8 класс</a>
+          <a href="grade-9.html">9 класс</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="grade-7.html">7 класс <span class="caret" aria-hidden="true">▾</span></a>
+        <div class="dropdown">
+          <a href="grade-7.html#topic-1">Вводный модуль</a>
+          <a href="grade-7.html#topic-3">Строение вещества</a>
+          <a href="grade-7.html#topic-4">Механическое движение</a>
+          <a href="grade-7.html">Все темы 7 класса</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="grade-8.html">8 класс <span class="caret" aria-hidden="true">▾</span></a>
+        <div class="dropdown">
+          <a href="grade-8.html#topic-1">Строение и свойства вещества</a>
+          <a href="grade-8.html#topic-2">Температура. Внутренняя энергия</a>
+          <a href="grade-8.html#topic-3">Тепловые процессы</a>
+          <a href="grade-8.html">Все темы 8 класса</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="grade-9.html">9 класс <span class="caret" aria-hidden="true">▾</span></a>
+        <div class="dropdown">
+          <a href="grade-9.html#topic-1">Механическое движение</a>
+          <a href="grade-9.html#topic-2">Законы Ньютона</a>
+          <a href="grade-9.html#topic-3">Закон сохранения импульса</a>
+          <a href="grade-9.html">Все темы 9 класса</a>
+        </div>
+      </div>
+
+      <a href="reference.html">Справочные материалы</a>
+
+      <div class="nav-item">
+        <a href="media.html">Медиатека <span class="caret" aria-hidden="true">▾</span></a>
+        <div class="dropdown">
+          <a href="media.html#books">Книги</a>
+          <a href="media.html#films">Фильмы</a>
+          <a href="media.html#sites">Сайты</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="tests.html">Проверь себя <span class="caret" aria-hidden="true">▾</span></a>
+        <div class="dropdown">
+          <a href="tests.html#test-7">7 класс</a>
+          <a href="tests.html#test-8">8 класс</a>
+          <a href="tests.html#test-9">9 класс</a>
+          <a href="exams.html">ОГЭ, ЕГЭ и ВПР</a>
+        </div>
+      </div>
+
+      <a href="index.html#about">Познакомимся</a>
+    </nav>
   </header>
 
   <main id="main">
