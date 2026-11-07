@@ -1475,3 +1475,9 @@ p {
     height: 560px;
   }
 }
+
+@media (max-width: 720px) {
+  .topic-index {
+    grid-template-columns: 1fr;
+  }
+}
